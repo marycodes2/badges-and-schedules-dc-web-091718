@@ -32,8 +32,8 @@ def printer(speaker_list)
   room_list = assign_rooms(speaker_list)
   counter = 0 
   while counter < 7 do 
-    puts badge_list(counter)
-    puts room_list(counter)
+    puts badge_list[counter]
+    puts room_list[counter]
     counter += 1
   end 
 end 
