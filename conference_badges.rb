@@ -28,8 +28,10 @@ def assign_rooms(speaker_list)
 end 
   
 def printer(speaker_list)
-  puts batch_badge_creator(speaker_list)
-  puts assign_rooms(speaker_list)
+  for speaker in speaker list:
+    puts batch_badge_creator(speaker)
+    puts assign_rooms(speaker)
+  end
 end 
 
 conference_speakers = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
