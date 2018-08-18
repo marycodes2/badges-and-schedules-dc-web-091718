@@ -28,7 +28,7 @@ def assign_rooms(speaker_list)
 end 
   
 def printer(speaker_list)
-  for speaker in speaker list do
+  for speaker in speaker_list do
     puts batch_badge_creator(speaker)
     puts assign_rooms(speaker)
   end
