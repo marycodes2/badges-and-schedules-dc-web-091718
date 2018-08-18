@@ -28,8 +28,14 @@ def assign_rooms(speaker_list)
 end 
   
 def printer(speaker_list)
-  badge_list = batch_badge_creator(speaker)
-  room_list = assign_rooms(speaker)
+  badge_list = batch_badge_creator(speaker_list)
+  room_list = assign_rooms(speaker_list)
+  counter = 0 
+  while counter < 7 do 
+    puts badge_list(counter)
+    puts room_list(counter)
+    counter += 1
+  end 
 end 
 
 conference_speakers = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
